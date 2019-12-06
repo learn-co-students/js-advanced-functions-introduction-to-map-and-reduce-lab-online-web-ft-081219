@@ -38,18 +38,6 @@ function mapToSquare(sourceArray) {
 }
 
 function reduceToTotal(list, startingPoint) {
-    // if (list.length === 0) {
-    //     return startingPoint;
-    // } else if (startingPoint === "") {
-    //     list.forEach(element => element + element)
-    // }
-    // else {
-    //     const [first, ...rest] = list;
-    //     const reducer = (total, val) => total + val
-    //     const updatedAcc = reducer(startingPoint, first);
-    //     return reduceToTotal(rest, updatedAcc, reducer);
-    // }
-
     let sum = 0;
     if (startingPoint == undefined) {
         list.forEach(element => {
